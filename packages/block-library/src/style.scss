@@ -152,10 +152,6 @@
 	margin-bottom: $default-block-margin;
 }
 
-.editor-block-list__layout > .wp-block:first-child {
-	margin-top: 0;
-}
-
 // Apply some base margins to blocks that need them.
 // Please note that some styles are stored in packages/editor/src/editor-styles.scss, as they pertain to CSS bleed for the editor only.
 img {
