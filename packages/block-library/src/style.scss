@@ -152,13 +152,12 @@
 	margin-bottom: $default-block-margin;
 }
 
-// Re-apply margins to all blocks. This is a temporary step to get the surrounding stuff to work.
-// In upcoming pushes, this will be removed and replaced with actual individual block CSS styles.
-[class*="wp-block"] .editor-block-list__block-edit {
-	margin-top: $default-block-margin;
-	margin-bottom: $default-block-margin;
+.editor-block-list__layout > .wp-block:first-child {
+	margin-top: 0;
 }
 
+// Apply some base margins to blocks that need them.
+// Please note that some styles are stored in packages/editor/src/editor-styles.scss, as they pertain to CSS bleed for the editor only.
 img {
 	max-width: 100%;
 	height: auto;

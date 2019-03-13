@@ -12,8 +12,8 @@ p {
 
 ul,
 ol {
-	margin: 0;
-	padding: 0;
+	margin: 1em 0;
+	padding: inherit;
 
 	li {
 		// This overrides a bottom margin globally applied to list items in wp-admin.

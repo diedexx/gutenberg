@@ -57,7 +57,7 @@ $block-spacing: 4px; // Vertical space between blocks.
 $block-side-ui-width: 28px; // Width of the movers/drag handle UI.
 $block-side-ui-clearance: 2px; // Space between movers/drag handle UI, and block.
 $block-container-side-padding: $block-side-ui-width + $block-padding + 2 * $block-side-ui-clearance; // Total space left and right of the block footprint.
-$default-block-margin: ($block-padding * 2) + $block-spacing; // This is the default margin between blocks.
+$default-block-margin: ($block-padding * 2) + $block-spacing; // This is the default margin between blocks. It matches 2em in the vanilla style.
 
 // Buttons & UI Widgets
 $radius-round-rectangle: 4px;
